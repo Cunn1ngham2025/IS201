@@ -1,0 +1,83 @@
+.common{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.b{
+    margin-left:40%;
+    text-align: left;
+}
+
+.header{
+    background-color: rgb(245, 234, 241);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    height: 10px;
+    line-height: 100x;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 50px; /* Makes the header full height of the viewport */
+    background-size: cover;
+    background-position: center;
+}
+
+.mainbody{
+    background-color: rgb(255, 255, 255);
+   
+}
+
+
+img{
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav{
+    background-color: #ccc(149, 147, 117);
+    padding: 10px;
+    overflow: hidden;
+
+}
+
+nav a{
+    color: #333;
+    text-decoration: none;
+    padding: 12px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    background-color: #86adc1;
+
+}
+/* youtube video */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 ratio */
+    height: o;
+    overflow: hidden;
+    max-width: 100%;
+    background: #ffffff;
+    margin: 10px 80px;
+}
+
+.video-container iframe {
+    position: absolute ;
+    top: 100;
+    left: 100;
+    width: 100%;
+    height: 100%;
+   
+}
+
+.tableauPlaceholder {
+    max-width: 90%;
+    height: 200px;
+    margin: 40px auto;
+    padding: 10px;
+    border: 100px solid #b6aaaa;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
